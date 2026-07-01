@@ -1,16 +1,25 @@
-# React + Vite
+# 📝 Multi-Step Form with LocalStorage Persistence
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and fully validated **5-step multi-step form** built using the latest frontend stack. This project demonstrates advanced form handling, schema-based validation, and state persistence.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework:** React (Vite / Next.js)
+- **Styling:** Tailwind CSS
+- **Form Handling:** React Hook Form
+- **Validation:** Zod (Schema-based validation)
+- **State Persistence:** LocalStorage
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **5-Step Wizard Workflow:** Clean step-by-step user journey.
+- **Data Persistence:** Automatically saves partial progress to `LocalStorage` on every step. Prevents data loss on page refresh.
+- **Robust Validation:** Real-time client-side validation using Zod schemas for complex fields.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop screens using Tailwind.
+- **State Management:** Clean forward and backward navigation with data retention.
 
-## Expanding the ESLint configuration
+## 🛠️ Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/shaheerawan295-png/react-multistep-form-zod.git](https://github.com/shaheerawan295-png/react-multistep-form-zod.git)
